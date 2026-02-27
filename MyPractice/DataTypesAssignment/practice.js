@@ -20,3 +20,13 @@ function arthmetic(a,b){
     console.log("the arthmetic operations are =", sum, sub, div, mul)
 }
 arthmetic(2,2)
+
+function marks(a,b){
+    const sub1marks = a
+    const sub2marks = b
+    const TotalMarks = a+b
+    const percentage = ((TotalMarks)/200)*100
+    console.log("Total Marks =", TotalMarks, "Percentage =", percentage)
+}
+
+marks(70,70)
