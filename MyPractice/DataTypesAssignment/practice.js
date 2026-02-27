@@ -28,5 +28,11 @@ function marks(a,b){
     const percentage = ((TotalMarks)/200)*100
     console.log("Total Marks =", TotalMarks, "Percentage =", percentage)
 }
-
 marks(70,70)
+
+function rectangle(a,b){
+    const Area = a*b
+    const Perimeter = 2*(a+b)
+    console.log("Area =",Area,"Perimeter =",Perimeter)
+}
+rectangle(2,3)
